@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDD82927254DD7F90079A930 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD82926254DD7F90079A930 /* PrimaryButtonStyle.swift */; };
+		EDD8292F254DDA0C0079A930 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8292E254DDA0C0079A930 /* Color+Extension.swift */; };
 		EDFBD3D0254C85AD00423399 /* Fitness_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFBD3CF254C85AD00423399 /* Fitness_AppApp.swift */; };
-		EDFBD3D2254C85AD00423399 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFBD3D1254C85AD00423399 /* ContentView.swift */; };
+		EDFBD3D2254C85AD00423399 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFBD3D1254C85AD00423399 /* LandingView.swift */; };
 		EDFBD3D4254C85AE00423399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFBD3D3254C85AE00423399 /* Assets.xcassets */; };
 		EDFBD3D7254C85AE00423399 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFBD3D6254C85AE00423399 /* Preview Assets.xcassets */; };
 		EDFBD3E2254C85AE00423399 /* Fitness_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFBD3E1254C85AE00423399 /* Fitness_AppTests.swift */; };
@@ -33,9 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EDD82926254DD7F90079A930 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		EDD8292E254DDA0C0079A930 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		EDFBD3CC254C85AD00423399 /* Fitness App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFBD3CF254C85AD00423399 /* Fitness_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_AppApp.swift; sourceTree = "<group>"; };
-		EDFBD3D1254C85AD00423399 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDFBD3D1254C85AD00423399 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		EDFBD3D3254C85AE00423399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDFBD3D6254C85AE00423399 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDFBD3D8254C85AE00423399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,10 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				EDFBD3CF254C85AD00423399 /* Fitness_AppApp.swift */,
-				EDFBD3D1254C85AD00423399 /* ContentView.swift */,
+				EDFBD3D1254C85AD00423399 /* LandingView.swift */,
 				EDFBD3D3254C85AE00423399 /* Assets.xcassets */,
 				EDFBD3D8254C85AE00423399 /* Info.plist */,
 				EDFBD3D5254C85AE00423399 /* Preview Content */,
+				EDD82926254DD7F90079A930 /* PrimaryButtonStyle.swift */,
+				EDD8292E254DDA0C0079A930 /* Color+Extension.swift */,
 			);
 			path = "Fitness App";
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDFBD3D2254C85AD00423399 /* ContentView.swift in Sources */,
+				EDD82927254DD7F90079A930 /* PrimaryButtonStyle.swift in Sources */,
+				EDFBD3D2254C85AD00423399 /* LandingView.swift in Sources */,
 				EDFBD3D0254C85AD00423399 /* Fitness_AppApp.swift in Sources */,
+				EDD8292F254DDA0C0079A930 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
